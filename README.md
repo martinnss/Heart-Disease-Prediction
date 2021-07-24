@@ -1,2 +1,39 @@
 # Heart-Disease-Prediction
-This project intends to extract the most relevant/risk factors of heart disease as well as predict the overall risk using logistic regression.
+### This project intends to extract the most relevant/risk factors of heart disease as well as predict the overall risk using logistic regression and KNeighbors Classifier and then compare each one.
+World Health Organization has estimated 12 million deaths occur worldwide, every year due to Heart diseases. Half the deaths in the United States and other developed countries are due to cardio vascular diseases. The early prognosis of cardiovascular diseases can aid in making decisions on lifestyle changes in high risk patients and in turn reduce the complications. This research intends to pinpoint the most relevant/risk factors of heart disease as well as predict the overall risk using logistic regression and kneighbors classifier.
+
+## Target Variable and Features:
+### -Target Variable
+-10 year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)
+
+### -Features
+
+-Demographic: sex: male or female;(Nominal)
+
+-age: age of the patient;(Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)
+Behavioural
+
+-currentSmoker: whether or not the patient is a current smoker (Nominal)
+
+-cigsPerDay: the number of cigarettes that the person smoked on average in one day.(can be considered continuous as one can have any number of cigarretts, even half a cigarette.)
+
+-BPMeds: whether or not the patient was on blood pressure medication (Nominal)
+
+-prevalentStroke: whether or not the patient had previously had a stroke (Nominal)
+
+-prevalentHyp: whether or not the patient was hypertensive (Nominal)
+
+-diabetes: whether or not the patient had diabetes (Nominal)
+
+-totChol: total cholesterol level (Continuous)
+
+-sysBP: systolic blood pressure (Continuous)
+
+-diaBP: diastolic blood pressure (Continuous)
+
+-BMI: Body Mass Index (Continuous)
+
+-heartRate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
+
+-glucose: glucose level (Continuous)
+
